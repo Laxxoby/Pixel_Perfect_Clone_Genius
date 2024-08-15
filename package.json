@@ -1,0 +1,20 @@
+{
+  "name": "pixel_perfect_clone_genius",
+  "version": "1.0.0",
+  "description": "Clone de Genius",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Pixel"
+  ],
+  "author": "Johan Lasso",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^7.0.5",
+    "postcss": "^8.4.41",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.1.0"
+  }
+}
