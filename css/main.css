@@ -1,38 +1,9 @@
 @import url(reset.css);
-
-@font-face {
-    font-family: 'Programme';
-    src: url(/assets/fonts/programme_bold.woff2) format('woff2'), 
-         url(/assets/fonts/programme_bold.woff) format('woff');
-    font-style: normal;
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'Programme';
-    src: url(/assets/fonts/programme_normal.woff2) format('woff2'), 
-         url(/assets/fonts/programme_normal.woff) format('woff');
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'Programme';
-    src: url(/assets/fonts/programme_normal_italic.woff2) format('woff2'),
-         url(/assets/fonts/programme_normal_italic.woff) format('woff');
-    font-style: italic;
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: 'Programme';
-    src: url(/assets/fonts/programme_light_italic.woff2) format('woff2'),
-         url(/assets/fonts/programme_light_italic.woff) format('woff');
-    font-style: italic;
-    font-weight: 100;
-}
+@import url(fonts.css);
 
 body{
     color: rgb(0, 0, 0);
     font-family: Programme, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
