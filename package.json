@@ -4,10 +4,13 @@
   "description": "Clone de Genius",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss css/main.css -o style.css"
   },
   "keywords": [
-    "Pixel"
+    "Pixel Perfect",
+    "Genius",
+    "CSS"
   ],
   "author": "Johan Lasso",
   "license": "ISC",
