@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(fonts.css);
+@import url(components/header.css);
 
 body{
     color: rgb(0, 0, 0);
@@ -10,4 +11,8 @@ body{
 
 header {
     box-sizing: border-box;
+}
+
+[class$="__Container"] {
+    display: flex;
 }
