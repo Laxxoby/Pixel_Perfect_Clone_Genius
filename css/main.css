@@ -8,6 +8,7 @@ body{
     font-family: Programme, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
+    line-height: 1;
 }
 
 header {
@@ -19,5 +20,5 @@ header {
 }
 
 section {
-    
+
 }
