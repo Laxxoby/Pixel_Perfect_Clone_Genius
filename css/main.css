@@ -2,6 +2,7 @@
 @import url(fonts.css);
 @import url(components/header.css);
 @import url(components/featured.css);
+@import url(components/charts.css);
 
 body{
     color: rgb(0, 0, 0);
