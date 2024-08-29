@@ -54,7 +54,7 @@
     flex-direction: column;
 }
 
-div.list-item__Container {
+a.list-item__Container {
     display: grid;
     grid-template-columns: 1.1fr 5.6fr 3.3fr 2.7fr;
     grid-auto-rows: minmax(75px, auto);
@@ -64,7 +64,7 @@ div.list-item__Container {
     border-bottom: 0.15rem solid rgb(233, 233, 233);
 }
 
-div.list-item__Container:hover {
+a.list-item__Container:hover {
     background-color: rgb(233, 233, 233);
 }
 
@@ -121,6 +121,7 @@ div.list-item__Container:hover {
 
 .song-author {
     font-weight: 100;
+    max-width: 260px;
     overflow-wrap: break-word;
     word-break: break-word;
     overflow: hidden;
@@ -170,4 +171,44 @@ div.list-item__Container:hover {
 
 .number-fire {
     color: rgb(255, 20, 100);
+}
+
+.list__Container > .list-item__Container:first-child .song-image  {
+    background-image: url(https://t2.genius.com/unsafe/315x315/https%3A%2F%2Fimages.genius.com%2F24aa58ea2142d2d8980be1e112647d6c.300x300x1.png);
+}
+
+.list__Container > .list-item__Container:nth-child(2) .song-image {
+    background-image: url(https://t2.genius.com/unsafe/315x315/https%3A%2F%2Fimages.genius.com%2F514706123e1556e4d0c33474516ec2f3.300x300x1.png);
+}
+
+.list__Container > .list-item__Container:nth-child(3) .song-image {
+    background-image: url(https://t2.genius.com/unsafe/315x315/https%3A%2F%2Fimages.genius.com%2F9f4956db3668c76003ded5b1dffc9fd8.300x300x1.png);
+}
+
+.list__Container > .list-item__Container:nth-child(4) .song-image {
+    background-image: url(https://t2.genius.com/unsafe/315x315/https%3A%2F%2Fimages.genius.com%2F81aa0f549b430b4dc6f5b37928ea4f18.300x300x1.jpg);
+}
+
+.list__Container > .list-item__Container:nth-child(5) .song-image {
+    background-image: url(https://t2.genius.com/unsafe/315x315/https%3A%2F%2Fimages.genius.com%2Fb25badd976ad7dac47b8cfb9e496707e.300x300x1.png);
+}
+
+.list__Container > .list-item__Container:nth-child(6) .song-image {
+    background-image: url(https://t2.genius.com/unsafe/315x315/https%3A%2F%2Fimages.genius.com%2Fec359c594229814c28cb116dddc696d8.300x300x1.png);
+}
+
+.list__Container > .list-item__Container:nth-child(7) .song-image {
+    background-image: url(https://t2.genius.com/unsafe/315x315/https%3A%2F%2Fimages.genius.com%2F342bbb52679627c49efa66ddeaba1c40.300x300x1.png);
+}
+
+.list__Container > .list-item__Container:nth-child(8) .song-image {
+    background-image: url();
+}
+
+.list__Container > .list-item__Container:nth-child(9) .song-image {
+    background-image: url();
+}
+
+.list__Container > .list-item__Container:nth-child(10) .song-image {
+    background-image: url();
 }
