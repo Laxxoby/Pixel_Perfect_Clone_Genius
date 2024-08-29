@@ -121,7 +121,7 @@ a.list-item__Container:hover {
 
 .song-author {
     font-weight: 100;
-    max-width: 260px;
+    max-width: 240px;
     overflow-wrap: break-word;
     word-break: break-word;
     overflow: hidden;
@@ -194,7 +194,7 @@ a.list-item__Container:hover {
 }
 
 .list__Container > .list-item__Container:nth-child(6) .song-image {
-    background-image: url(https://t2.genius.com/unsafe/315x315/https%3A%2F%2Fimages.genius.com%2Fec359c594229814c28cb116dddc696d8.300x300x1.png);
+    background-image: url(https://t2.genius.com/unsafe/315x315/https%3A%2F%2Fimages.genius.com%2Fa6d5d9345ac1094d0aebf95fc50ce93b.300x300x1.jpg);
 }
 
 .list__Container > .list-item__Container:nth-child(7) .song-image {
@@ -210,5 +210,5 @@ a.list-item__Container:hover {
 }
 
 .list__Container > .list-item__Container:nth-child(10) .song-image {
-    background-image: url();
+    background-image: url(https://t2.genius.com/unsafe/315x315/https%3A%2F%2Fimages.genius.com%2F5b1c3e778a28a8a5ed8ba8903e2d3978.300x300x1.jpg);
 }
