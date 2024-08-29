@@ -90,7 +90,7 @@
     margin-bottom: .2rem;
 }
 
-.video-info__subtitle:hover {
+.video-content-text:hover .video-info__subtitle {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 5px;

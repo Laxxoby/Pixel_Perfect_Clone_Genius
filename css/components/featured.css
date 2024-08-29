@@ -26,6 +26,7 @@
 }
 
 .news {
+    text-transform: uppercase;
     display: flex;
     font-size: 0.75rem;
     font-weight: 400;
