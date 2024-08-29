@@ -202,11 +202,11 @@ a.list-item__Container:hover {
 }
 
 .list__Container > .list-item__Container:nth-child(8) .song-image {
-    background-image: url();
+    background-image: url(https://t2.genius.com/unsafe/315x315/https%3A%2F%2Fimages.genius.com%2F9d35a5dff10090e6c1d5e077932cea99.300x300x1.jpg);
 }
 
 .list__Container > .list-item__Container:nth-child(9) .song-image {
-    background-image: url();
+    background-image: url(https://t2.genius.com/unsafe/315x315/https%3A%2F%2Fimages.genius.com%2Ff4eaf096cd899f0ae22d00d8a6004dd1.300x300x1.jpg);
 }
 
 .list__Container > .list-item__Container:nth-child(10) .song-image {
