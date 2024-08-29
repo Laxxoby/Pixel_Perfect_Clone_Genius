@@ -1,7 +1,8 @@
 .latest-section__Container,
 .top-latest-section__Container,
 .latest-new__Container,
-.top-latest-new__Container {
+.top-latest-new__Container,
+.latest-news__Container {
     flex-direction: column;
 }
 
@@ -41,6 +42,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 60px;
+    margin-bottom: 40px;
 }
 
 
@@ -72,10 +74,10 @@
     font-weight: 100;
 }
 
-.latest-new__Container:hover .latest-new-title{
+.latest-new__Container:hover .latest-new-title {
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 5px;
+    text-underline-offset: 2px;
 }
 
 .top-latest-new__Container {
@@ -88,10 +90,65 @@
     line-height: 1.5;
 }
 
-.latest-new__Container .notice-author .name::after{
+.latest-new__Container .notice-author .name::after {
     content: "/";
     margin-block: 0;
     margin-inline: 0.25rem .09rem;
     box-sizing: border-box;
     font-weight: 100;
+}
+
+/* Row 1 */
+
+.latest-news__Container>.latest-news-col__grid-col4:first-child>.latest-new__Container:first-child .latest-new-image {
+    background-image: url(https://i.ytimg.com/vi/nA0aeyyMQsY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB7WRGwh7bbZSqfbMP9txxVzI6eFQ);
+}
+
+.latest-news__Container>.latest-news-col__grid-col4:first-child>.latest-new__Container:nth-child(2) .latest-new-image {
+    background-image: url("https://t2.genius.com/unsafe/178x177/https%3A%2F%2Fimages.genius.com%2F213cac1ad0a94c395955ef37af4971b4.1000x998x1.png");
+}
+
+.latest-news__Container>.latest-news-col__grid-col4:first-child>.latest-new__Container:nth-child(3) .latest-new-image {
+    background-image: url("https://t2.genius.com/unsafe/315x177/https%3A%2F%2Fimages.genius.com%2F9e5aabb094279e555daa659a1c26cb34.1920x1080x1.jpg");
+}
+
+.latest-news__Container>.latest-news-col__grid-col4:first-child>.latest-new__Container:nth-child(4) .latest-new-image {
+    background-image: url("https://t2.genius.com/unsafe/177x177/https%3A%2F%2Fimages.genius.com%2F6ee0f3cab5e0bfcb1bcd61371e765628.1000x1000x1.png");
+}
+
+/* Row 2 */
+
+.latest-news__Container>.latest-news-col__grid-col4:nth-child(2)>.latest-new__Container:first-child .latest-new-image {
+    background-image: url("https://t2.genius.com/unsafe/177x177/https%3A%2F%2Fimages.genius.com%2Ff8203be8e7cc9dcc1d73dbac8057f064.1000x1000x1.png");
+}
+
+.latest-news__Container>.latest-news-col__grid-col4:nth-child(2)>.latest-new__Container:nth-child(2) .latest-new-image {
+    background-image: url("https://t2.genius.com/unsafe/315x177/https%3A%2F%2Fimages.genius.com%2Fa999a556afd43c47702f681f5a631dad.1920x1080x1.jpg");
+}
+
+.latest-news__Container>.latest-news-col__grid-col4:nth-child(2)>.latest-new__Container:nth-child(3) .latest-new-image {
+    background-image: url("https://t2.genius.com/unsafe/177x177/https%3A%2F%2Fimages.genius.com%2F102b9eb24b0837526b7055e346ed144c.1600x1600x1.jpg");
+}
+
+.latest-news__Container>.latest-news-col__grid-col4:nth-child(2)>.latest-new__Container:nth-child(4) .latest-new-image {
+    background-image: url("https://t2.genius.com/unsafe/177x177/https%3A%2F%2Fimages.genius.com%2Fff4edf61d360a118cb8a6ae91abe84cd.1000x1000x1.png");
+}
+
+
+/* Row 3 */
+
+.latest-news__Container>.latest-news-col__grid-col4:nth-child(3)>.latest-new__Container:first-child .latest-new-image {
+    background-image: url("https://t2.genius.com/unsafe/177x177/https%3A%2F%2Fimages.genius.com%2F0cb613c4d3d835771a6ebc1e3cbce3a9.1000x1000x1.png");
+}
+
+.latest-news__Container>.latest-news-col__grid-col4:nth-child(3)>.latest-new__Container:nth-child(2) .latest-new-image {
+    background-image: url("https://t2.genius.com/unsafe/177x177/https%3A%2F%2Fimages.genius.com%2F06921b70dde4f572fa9b75dba85f5015.1000x1000x1.png");
+}
+
+.latest-news__Container>.latest-news-col__grid-col4:nth-child(3)>.latest-new__Container:nth-child(3) .latest-new-image {
+    background-image: url("https://t2.genius.com/unsafe/177x177/https%3A%2F%2Fimages.genius.com%2Fd28bc5634716e08578cc4e2d48eb1717.1000x1000x1.png");
+}
+
+.latest-news__Container>.latest-news-col__grid-col4:nth-child(3)>.latest-new__Container:nth-child(4) .latest-new-image {
+    background-image: url("https://t2.genius.com/unsafe/315x177/https%3A%2F%2Fimages.genius.com%2Fe41a47892b3526cdf4da15f03a60c17f.1920x1080x1.jpg");
 }
