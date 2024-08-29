@@ -1,4 +1,107 @@
 .videos-section__Container {
-    padding: 4.5rem 60px;
+    padding: 4.5rem calc(60px + 5.4rem);
     background-color: rgb(18, 18, 18);
+    flex-direction: column;
+}
+
+.top-videos-section__Container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.videos-section__title {
+    color: white;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.videos-section__subtitle {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.45;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 100);
+    margin: 0.5rem 0;
+}
+
+.videos-section-content__grid {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 9fr 2.6fr;
+    gap: 60px;
+}
+
+.video-box {
+    position: relative;
+    background-position: center center;
+    padding-bottom: 56.25%;
+    background-color: rgb(42, 42, 42);
+    background-repeat: repeat-x;
+    background-size: auto calc(100% + 1px);
+    background-image: url("https://t2.genius.com/unsafe/1094x616/https%3A%2F%2Fimages.genius.com%2F06c4626bd3cf55238b5832ec8b33b37f.1000x563x1.jpg");
+}
+
+.icon-play{
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+
+.open-mic {
+    display: block;
+    border-top: 0.15rem solid white;
+    padding-top: 1rem;
+    margin-bottom: 0.5rem;
+    height: 2.5rem;
+    position: relative;
+}
+
+.open-mic svg{
+    fill: rgb(255, 255, 255);
+    display: block;
+    height: 100%;
+    max-width: 100%;
+}
+
+.video-info{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 100;
+    line-height: 1.125;
+    height: 100%;
+}
+
+.video-info__subtitle {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.video-info-text {
+    margin-top: 0.5rem;
+    margin-bottom: .2rem;
+}
+
+.video-info__subtitle:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+
+.videos-section__Container .button-load-more {
+    color: white;
+    border-color: white;
+}
+
+.videos-section__Container .button-load-more:hover {
+    background-color: white;
+    color: rgb(18, 18, 18);;
 }
