@@ -98,6 +98,10 @@
     font-weight: 100;
 }
 
+.latest-section__Container .button__Container {
+    margin: 0;
+}
+
 /* Row 1 */
 
 .latest-news__Container>.latest-news-col__grid-col4:first-child>.latest-new__Container:first-child .latest-new-image {

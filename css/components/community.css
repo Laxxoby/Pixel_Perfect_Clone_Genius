@@ -1,0 +1,187 @@
+.community-section__Container,
+.top-community-section__Container {
+    flex-direction: column;
+}
+
+.community-section__Container {
+    padding: 4.5rem calc(60px + 5.4rem);
+    align-items: center;
+}
+
+.top-community-section__Container {
+    text-align: center;
+    gap: 0.5rem;
+    width: 564px;
+}
+
+.top-community-section__Container .latest-section__subtitle {
+    line-height: 1.5;
+}
+
+.community-section__Container .button__Container {
+    gap: 2.25rem;
+    font-size: 0.875rem;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.button-join-community {
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid black;
+    width: 240px;
+    padding: 0.75rem;
+}
+
+.button-join-community:hover {
+    background-color: black;
+    color: white;
+}
+
+.list-comunity__Container {
+    width: 100%;
+    margin-top: 36px;
+    flex-direction: column;
+}
+
+.grid-col3 {
+    display: grid;
+    grid-template-columns: 1fr 9fr 1.5fr;
+    height: 75px;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
+    border-bottom: 0.15rem solid rgb(233, 233, 233);
+}
+
+.header-list-comunity {
+    height: auto;
+    padding-bottom: .4rem;
+}
+
+.header-list-comunity span {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.right-aling {
+    text-align: end;
+}
+
+.collaborator__Container {
+    align-items: center;
+}
+
+.collaborator-image {
+    position: relative;
+    background-position: center center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(233, 233, 233);
+    background-size: cover;
+}
+
+.collaborator-info {
+    margin-left: 1.5rem;
+    line-height: 1;
+}
+
+.collaborator-name {
+    line-height: 1;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.collaborator-role {
+    line-height: 0;
+    margin-top: 0.45rem;
+}
+
+.collaborator-role span {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(154, 154, 154);
+}
+
+.collaborator-role svg {
+    margin-left: -0.15rem;
+    height: 10px;
+    width: 10px;
+    stroke: rgb(0, 0, 0);
+    overflow: visible;
+    position: relative;
+    top: 1px;
+}
+
+.number-iq span {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 2.2;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(255, 20, 100);
+}
+
+span.contributor + svg{
+    fill: rgb(255, 255, 255);
+}
+
+span.editor + svg{
+    fill: rgb(255, 255, 100);
+}
+
+span.moderator + svg{
+    fill: rgb(118, 137, 232);
+}
+
+span.transcriber + svg{
+    fill: rgb(255, 163, 53);
+}
+
+
+
+.list-comunity .grid-col3:nth-child(1) .collaborator-image {
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2Feab654488c6313cc48ccfdd4a49c4bcc");
+}
+
+.list-comunity .grid-col3:nth-child(2) .collaborator-image {
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2Fa005c5ee1d6ac4b5b6ad29b12da0f763");
+}
+
+.list-comunity .grid-col3:nth-child(3) .collaborator-image {
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F2f4efbb8d2031e656696b1f2e029c742");
+}
+
+.list-comunity .grid-col3:nth-child(4) .collaborator-image {
+    background-image: url("https://filepicker-images.genius.com/row7ask179g");
+}
+
+.list-comunity .grid-col3:nth-child(5) .collaborator-image {
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F8754e51ff7af5f9662a97a08d5804a8d");
+}
+
+.list-comunity .grid-col3:nth-child(6) .collaborator-image {
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F1a70968aece8992d590aedb46ab4f0f5");
+}
+
+.list-comunity .grid-col3:nth-child(7) .collaborator-image {
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2Ff2231e662e666830da12d754e295ba32");
+}
+
+.list-comunity .grid-col3:nth-child(8) .collaborator-image {
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2F2f4f610d8bee15712c6b99cba8d531c9");
+}
+
+.list-comunity .grid-col3:nth-child(9) .collaborator-image {
+    background-image: url("https://filepicker-images.genius.com/p18ztaivlcb");
+}
+
+.list-comunity .grid-col3:nth-child(10) .collaborator-image {
+    background-image: url("https://t2.genius.com/unsafe/75x75/https%3A%2F%2Fimages.genius.com%2Favatars%2Fmedium%2Fae58b390778f03ffbcc0d1e34dad1777");}

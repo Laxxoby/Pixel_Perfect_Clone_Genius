@@ -5,6 +5,7 @@
 @import url(components/charts.css);
 @import url(components/video.css);
 @import url(components/latest.css);
+@import url(components/community.css);
 
 body{
     color: rgb(0, 0, 0);
