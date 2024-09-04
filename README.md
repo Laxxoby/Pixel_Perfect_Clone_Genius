@@ -28,4 +28,4 @@ Este proyecto es una réplica pixel perfect de la página de inicio de [Genius.c
 
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tu-usuario/genius-homepage-pixel-perfect.git
+   git clone https://github.com/Laxxoby/Pixel_Perfect_Clone_Genius.git
