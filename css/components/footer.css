@@ -1,0 +1,13 @@
+footer {
+    background-color: rgb(18, 18, 18);
+}
+
+.footer__Container {
+    padding: 4.5rem calc(60px + 5.4rem) 0px;
+    align-items: center;
+}
+
+
+.bottom-footer__Container {
+    border-top: 0.15rem solid rgb(42, 42, 42);
+}
