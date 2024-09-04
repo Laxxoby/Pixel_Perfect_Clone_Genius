@@ -24,7 +24,7 @@ footer {
 .top-footer__Container {
     width: 100%;
     gap: 160px;
-    padding-bottom: 2.25rem;
+    padding-bottom: 2.4rem;
 }
 
 .top-footer-right-r__Container,
@@ -56,7 +56,7 @@ footer {
     margin-bottom: 2.25rem;
 }
 
-.footer__Container .header-socialmedias__Container svg{
+.footer__Container .header-socialmedias__Container svg {
     height: 22px;
 }
 
@@ -70,16 +70,45 @@ footer {
     gap: 1rem;
 }
 
-.copi-link a{
+.copi-link a {
     color: rgb(154, 154, 154);
     font-weight: 100;
     font-size: 0.75rem;
 }
 
-.bottom-footer__Container {
+.footer-bottom-con__Container {
+    width: 100%;
     border-top: 0.15rem solid rgb(42, 42, 42);
 }
 
 .bottom-footer__Container {
-    width: 100%;
+    text-transform: uppercase;
+    padding: 2.5rem calc(60px + 5.4rem);
+    gap: 50px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.alphabet-text {
+    margin-right: 1rem;
+}
+
+.alphabet__Container a {
+    margin: 0px 0.25rem;
+}
+
+.verified-artists__Container>a::after,
+.hot-songs__Container>a::after {
+    content: "•";
+    margin: 0px 1rem;
+}
+
+.hot-songs__Container a:last-of-type::after {
+    content: none;
+}
+
+.hot-songs__Container p {
+    margin-right: 1rem;
 }
